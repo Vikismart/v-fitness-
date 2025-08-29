@@ -43,7 +43,7 @@ ul{list-style: none;}
     width: 200px;
     height: 80px;
     background: url(images/Frame\ 46.png) no-repeat center center;
-    background-size: 80% 80%; /* image scaled relative to box */
+    background-size: 90% 80%; /* image scaled relative to box */
 }
 .nav-items{width: 80%;height: 80px;box-sizing: border-box;}
 .items{display: flex;list-style: none;gap: 15px;justify-content: center;font-size: 24px;}
@@ -82,6 +82,7 @@ a{color: var(--color-white);font-size: var(--text-size-average);margin-bottom: 2
     .logotext{color: #000000;display: none; font-size: 14px;margin-top: 2px;padding-left: 10px;margin-bottom: 5px;}.foot4div{flex-direction: column;gap: 10px;}.p1{width:97.7%;}.btn{padding: 0px;}
     .items a:hover{font-size:16px; color: yellow;}
 }
+
 
 
 
