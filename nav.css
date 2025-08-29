@@ -63,13 +63,13 @@ input{font-size: 18px;}
 a{color: var(--color-white);font-size: var(--text-size-average);margin-bottom: 20px;}
 .logotext{color: var(--color-white);font-size: 30px;text-align: center;}
 .policy{display: flex;justify-content: space-between;padding-left: 40px;padding-right: 40px;background-color: var(--color-black);color:var(--color-white);border-top: none;}
-/* @media only  screen and (max-width:450px){
+@media only  screen and (max-width:450px){
     footer{flex-direction: column;padding-left: 40px;padding-right: 40px;padding-top: 20px;gap: 15px;}.foot{width: 100%;}
     .privacy{font-size: 7px;}.navigation-bar{background-image: var(--red-gradient);}.btn{margin-bottom: 5px;}
-    .items{font-size: 14px;gap: 5px;}.nav-items{width: 85%;display: flex;justify-content: center;align-items: center;}.logo{width: 15%; border: 2px solidwhite;box-shadow: var(--shadow); background-position:center;}ul.items{padding-left: 0px;margin: 0px;background-image: url(images/Frame\ 47.png);background-position: center;background-repeat: no-repeat;background-size:62.15px 80px ;}
+    .items{font-size: 12px;gap: 5px;}.nav-items{width: 85%;display: flex;justify-content: center;align-items: center;}.logo{width: 15%; border: 2px solidwhite;box-shadow: var(--shadow); background-position:center;}ul.items{padding-left: 0px;margin: 0px;background-image: url(images/Frame\ 47.png);background-position: center;background-repeat: no-repeat;background-size:62.15px 80px ;}
     .logotext{color: #000000;display: none; font-size: 14px;margin-top: 2px;padding-left: 10px;margin-bottom: 5px;}.foot4div{flex-direction: column;gap: 10px;}.p1{width:97.7%;}.btn{padding: 0px;}
-    .items a:hover{font-size:16px; color: yellow;}
-} */
+    .items a:hover{font-size:18px; color: yellow;}
+}
 @media only  screen and (max-width:1000px){
     footer{flex-direction: column;padding-left: 40px;padding-right: 40px;}.foot{width: 100%;}
     .privacy{font-size: 7px;}.navigation-bar{background-image: var(--red-gradient);}.btn{margin-bottom: 5px;}
@@ -77,4 +77,5 @@ a{color: var(--color-white);font-size: var(--text-size-average);margin-bottom: 2
     .logotext{color: #000000;display: none; font-size: 14px;margin-top: 2px;padding-left: 10px;margin-bottom: 5px;}.foot4div{flex-direction: column;gap: 10px;}.p1{width:97.7%;}.btn{padding: 0px;}
     .items a:hover{font-size:16px; color: yellow;}
 }
+
 
