@@ -1,0 +1,44 @@
+.contain{width: 90%;margin-right: 40px;margin-left: 40px;box-sizing: border-box;}
+.searchbar{width: 100%; height: auto;border-radius: 10px; display: flex; border-top:  2px solid black; box-sizing: border-box;
+    background-image:var(--red-gradient);  padding: 20px 50px;}
+.searchtext{width: 100%;height: auto;background-color:var(--color-red);box-sizing: border-box;padding-left: 70px;border-radius: 10px;}
+.search{width: 80%;height: 200px;background-color: var(--color-red);margin-right: 10%; margin-left: 10%;margin-top: 10px;border-radius: 10px;box-shadow: var(--shadow-default);
+    display: flex;flex-direction: column;padding-top: 40px;box-sizing: border-box;justify-content: space-between;}
+select{ width: 25%;height: 50px;text-align: center; font-size: 16px;}
+.lagos{ border-top-left-radius: 10px; border-bottom-left-radius: 10px;}
+.enugu{ border-top-right-radius: 10px; border-bottom-right-radius: 10px;}
+.ptext{font-size: 40px; color: white; margin padding-top:70px;}
+.hero{ width: 100%;height: 90vh; box-sizing: border-box; margin-top: 100px;display: flex;}
+.img1{background-image: url(images/img1.jpg);height: 90vh; width: 50%;margin-left: 10px;}
+.herotext{width: 50%; height: 90vh; background-color:var(--color-white);box-sizing: border-box;padding: 70px;padding-top: 0px;
+    gap: 20px; display: flex; flex-direction: column;}
+.hero-card{margin: 0; padding: 0;}
+.icon1{width: 20%; height: 70px;background-color:var(--color-white); background-image: url(images/dumbbell-gym.svg); background-size: 50px 50px;background-repeat: no-repeat;}
+.icon2{width: 20%; height: 100px; background-color:var(--color-white); background-image: url(images/gym3.svg); background-size:50px 50px;
+    background-repeat: no-repeat; padding-right: 30px}
+.icon3{width: 20%; height: 100px; background-color:var(--color-white); background-image: url(images/gym4.svg); background-size: 50px 50px; background-repeat: no-repeat;}
+.herotextdiv{ display: flex; width: 100%;height: 150px;justify-content: baseline;}
+p{font-size:18px;margin: 0px;}
+h2{ font-size: var(--text-size-medium);margin-top: 0;margin-bottom: 10px;margin-top: 10px; }
+.h21{margin-bottom: 0px; font-size: 22px;}
+.h11{font-size: var(--text-size-big);margin-top: 0px;}
+.information{ width: 100%;height: 80vh;}
+.info-text{width: 100%;height: 30vh; text-align: center;box-sizing: border-box;padding-top: 50px;}
+.info-card{width: 100%; height:50vh; display: flex;justify-content: space-evenly;}
+.iconi1{ width: 100px;height: 100px; margin-bottom: 0px;}
+.info-card1{height: 30vh;background-color:var(--color-white); padding: 40px; border-radius: 15px;box-shadow:var(--shadow);padding-top: 0px;}
+.h33{ font-size:30px;margin-bottom: 10px;}
+.p33{font-size:20px;}
+.blog{ width: 100%; height: 60vh; background-color: var(--color-white);display: flex;box-sizing: border-box; padding: 50px;}
+.blog-text{width: 50%; height: 60vh}
+.blog-button{width: 50%;height: 60vh; box-sizing: border-box;  padding-left:350px; padding-top: 50px;}
+.btn2{ width:100%; height: 50px; font-size: 18px;color: var(--color-white); border-radius: 10px; background-image:var(--red-gradient);}
+@media only  screen and (max-width:450px){.searchbar{flex-direction: column;}select{width: 100%;border-radius: 10px;}
+.searchbar{padding: 10px 5px;}.searchtext{padding-left: 10px;}.contain{margin: 0px;}.hero{flex-direction: column;height: auto;}
+.img1{width: 100%; border-radius: 10px;  background-position: center;background-size:500px 400px;background-repeat: no-repeat; height: 400px;margin-top: 100px;margin-left: 20px;margin-bottom: 50px;}
+.herotext{width: 100%;margin-left: 20px; padding: 0px;margin-left: 20px;}.search{margin-left: 60px;}
+.herotextdiv{display: flex;}.icon1,.icon2,.icon3{width: 40%;}h2{margin-bottom: 5px;}.info-text{padding-top: 0px;height: 100px;}
+.blog{flex-direction: column;padding: 0px;margin-left: 20px; height: 35vh;}.blog-button{width: 100%;padding: 0px;margin: 0px;height: 100px;}.blog-text{width: 100%;height:200px;}
+.info-card{flex-direction: column;gap: 12px; height: auto;padding-left: 20px;}.info-card1{text-align: center;}.information{height:auto;}
+.ptext{padding-bottom: 10px;}.p{text-align:justify;}
+}
