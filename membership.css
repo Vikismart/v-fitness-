@@ -1,0 +1,38 @@
+/* **********plans********** */
+.plan{width: 100%; height: 100vh; display: flex; align-items: center; justify-content: center;}
+.plana{border: none; padding-left: 100px;}
+.plan-1-div{width: 30%; height: 90vh; box-sizing: border-box;}
+.plan1-first-div{width: 100%; height: 20vh; background-color: var(--color-secondary); text-align: center; padding-top: 20px; box-sizing: border-box; color: var(--color-white);}
+.plan1-second-div{width: 100%; height: 70vh; padding-left: 40px;}
+.plan1-txt{margin-right: 30px; margin-left: 30px;}
+.plan1-btn{width: 150px; height: 40px; background-color: var(--color-secondary); border-radius: 10px; color: var(--color-white);}
+.plan2-div{width: 30%; height: 90vh;}
+.plan2-first-div{background-color: var(--color-red); color: var(--color-white); margin: 0; padding: 20px; width: 100%; height: 20vh; box-sizing: border-box; text-align: center;}
+.plan2-second-div{height: 70vh; width: 100%; background-color: var(--color-black); box-sizing: border-box; padding: 40px; padding-top: 10px;}
+.plan2btn{width: 150px; height: 40px; color: var(--color-white); background-color: var(--color-red); border-radius: 10px; margin-top: 50px;}
+.plan3-div{width: 30%; height: 90vh; box-sizing: border-box;}
+.plan3-first-div{width: 100%; height: 20vh; background-color: var(--color-secondary); text-align: center; box-sizing: border-box; padding-top: 20px; color: var(--color-white);}
+.plan3-second-div{width: 100%; height: 70vh; box-sizing: border-box; padding-left: 20px;}
+.plan3-dv{padding-left: 40px; margin-right: 100px;}
+.plan3btn{background-color: var(--color-secondary); width: 150px; height: 40px; color: var(--color-white); border-radius: 10px;}
+.hh{color: var(--color-white); font-size: 20px;}
+.tic{display: flex; flex-direction: column;}
+.dv{padding-left: 20px;}
+.tic1{display: flex; gap: 10px; align-items: baseline; color: black; border-bottom: 1px solid grey;}
+.tic2{display: flex; gap: 10px; align-items: baseline; color: grey; border-bottom: 1px solid grey;}
+#tccc{border-bottom: none;}
+.plan-picture{width: 100%; height: 90vh; background-image: url(images/bg2.png); background-size: cover; background-repeat: no-repeat;}
+.plan-text{font-size: 35px; color: var(--color-red); text-align: center; margin-top: 10px;}
+ul li a:hover{color: blue;}
+.hhh{color: var(--color-red); font-size: 23px;}
+
+/* **********product********** */
+.cart-bar{background: #333; color: white; padding: 1rem; text-align: right; font-weight: bold;}
+
+/* MEDIA FOR MOBILE */
+@media only screen and (max-width: 450px){
+    .plan{flex-direction: column;height: auto;gap: 10px;}.plan-1-div,.plan2-div,.plan3-div{width: 90%;}.plan-picture{background-position: center;background-size: 400px;width: 100%;
+    height: 350px;}.plan-text{font-size: 24px;}.plan1-btn{width: 100%;margin: 0px;margin-top: 50px;}.plana{margin: 0px;padding: 0px;}.plan1-second-div{padding: 0px;height: 60vh;}
+.plan2btn{width: 100%;margin: 0px;padding: 0px;margin-top: 50px;}.plan2-second-div{padding-left: 0px;padding-right: 0px;height: 60vh;}.plan-1-div{height: 80vh;}
+.plan1-txt{margin-left:10px;margin-right: 10px;padding-left: 10px;}h1{font-size: 36px;}.hhh,.hh{padding-left: 15px;}.plan3-dv{margin: 0px;padding: 0px; padding-left: 10px;}
+}
